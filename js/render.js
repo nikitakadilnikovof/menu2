@@ -352,12 +352,5 @@ document.querySelector('#annonce-block-clouse').onclick = function(){
   document.querySelector('.annonce-block').classList.add('displayNone');
   document.querySelector('body').classList.remove('active_no');
 }
-const feedBackBloсk = document.querySelector('.feedBack-bloсk');
-const feedBackButton = document.querySelector('.feedBack-button');
 
-feedBackButton.onclick = function () {
-  
-  feedBackButton.classList.toggle('feedBack-button_active');
-    feedBackBloсk.classList.toggle('feedBack-bloсk_active');
-}
 
